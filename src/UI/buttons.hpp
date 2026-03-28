@@ -10,6 +10,7 @@ public:
   Button(Color backgroundColor, Color hoverColor, int x, int y, int width,
          int height, std::string text, void (*callback)());
   ~Button();
+  void draw();
 
 private:
   Color backgroundColor;
