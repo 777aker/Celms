@@ -1,27 +1,29 @@
-#include <raylib.h>
-#include "ball.h"
+#include "UI/colors.hpp"
 
-int main() 
-{
-    const Color darkGreen = {20, 160, 133, 255};
-    
-    constexpr int screenWidth = 800;
-    constexpr int screenHeight = 600;
-    
-    Ball ball;
-    
-    InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
-    SetTargetFPS(60);
-    
-    while (!WindowShouldClose())
-    {
-        ball.Update();
-        
-        BeginDrawing();
-            ClearBackground(darkGreen);
-            ball.Draw();
-        EndDrawing();
+#include <raylib.h>
+
+#include "drawobject.hpp"
+
+std::vector<DrawObject *> objectsToDraw{};
+
+int main() {
+
+  constexpr int screenWidth = 800;
+  constexpr int screenHeight = 600;
+
+  InitWindow(screenWidth, screenHeight, "CELMS");
+  SetTargetFPS(60);
+
+  while (!WindowShouldClose()) {
+    BeginDrawing();
+    ClearBackground(midnight_blue);
+
+    for (DrawObject *object : objectsToDraw) {
+      object->draw();
     }
-    
-    CloseWindow();
+
+    EndDrawing();
+  }
+
+  CloseWindow();
 }
