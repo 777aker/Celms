@@ -16,6 +16,7 @@ int main() {
   SetTargetFPS(60);
 
   StartScreen startScreen = StartScreen();
+  objectsToDraw.push_back(&startScreen);
 
   while (!WindowShouldClose()) {
     BeginDrawing();
