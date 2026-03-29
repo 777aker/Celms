@@ -7,7 +7,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -17,12 +17,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/startscreen.o",
+      "obj/x64/Debug/Celms/startscreen.o",
       "../../src/StartScreen/startscreen.hpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/StartScreen/startscreen.hpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/startscreen.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/StartScreen/startscreen.hpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/startscreen.o"
   },
   {
     "arguments": [
@@ -32,7 +32,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -42,12 +42,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/buttons.o",
+      "obj/x64/Debug/Celms/buttons.o",
       "../../src/UI/buttons.hpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/UI/buttons.hpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/buttons.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/UI/buttons.hpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/buttons.o"
   },
   {
     "arguments": [
@@ -57,7 +57,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -67,12 +67,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/colors.o",
+      "obj/x64/Debug/Celms/colors.o",
       "../../src/UI/colors.hpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/UI/colors.hpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/colors.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/UI/colors.hpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/colors.o"
   },
   {
     "arguments": [
@@ -82,7 +82,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -92,12 +92,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/drawobject.o",
+      "obj/x64/Debug/Celms/drawobject.o",
       "../../src/drawobject.hpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/drawobject.hpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/drawobject.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/drawobject.hpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/drawobject.o"
   },
   {
     "arguments": [
@@ -107,7 +107,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -117,12 +117,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/startscreen.o",
+      "obj/x64/Debug/Celms/startscreen.o",
       "../../src/StartScreen/startscreen.cpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/StartScreen/startscreen.cpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/startscreen.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/StartScreen/startscreen.cpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/startscreen.o"
   },
   {
     "arguments": [
@@ -132,7 +132,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -142,12 +142,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/buttons.o",
+      "obj/x64/Debug/Celms/buttons.o",
       "../../src/UI/buttons.cpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/UI/buttons.cpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/buttons.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/UI/buttons.cpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/buttons.o"
   },
   {
     "arguments": [
@@ -157,7 +157,7 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
+      "-D_WIN32",
       "-I../../src",
       "-I../../include",
       "-I../external/raylib-master/src",
@@ -167,12 +167,12 @@
       "-std=c++17",
       "-c",
       "-o",
-      "obj/x64/Debug/celms/main.o",
+      "obj/x64/Debug/Celms/main.o",
       "../../src/main.cpp"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/src/main.cpp",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/celms/main.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/main.cpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/main.o"
   },
   {
     "arguments": [
@@ -182,7 +182,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -192,9 +191,9 @@
       "obj/x64/Debug/raylib/config.o",
       "../external/raylib-master/src/config.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/config.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/config.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/config.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/config.o"
   },
   {
     "arguments": [
@@ -204,7 +203,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -214,9 +212,9 @@
       "obj/x64/Debug/raylib/raylib.o",
       "../external/raylib-master/src/raylib.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/raylib.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/raylib.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/raylib.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/raylib.o"
   },
   {
     "arguments": [
@@ -226,7 +224,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -236,9 +233,9 @@
       "obj/x64/Debug/raylib/raymath.o",
       "../external/raylib-master/src/raymath.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/raymath.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/raymath.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/raymath.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/raymath.o"
   },
   {
     "arguments": [
@@ -248,7 +245,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -258,9 +254,9 @@
       "obj/x64/Debug/raylib/rcamera.o",
       "../external/raylib-master/src/rcamera.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rcamera.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rcamera.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rcamera.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rcamera.o"
   },
   {
     "arguments": [
@@ -270,7 +266,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -280,9 +275,9 @@
       "obj/x64/Debug/raylib/rgestures.o",
       "../external/raylib-master/src/rgestures.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rgestures.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rgestures.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rgestures.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rgestures.o"
   },
   {
     "arguments": [
@@ -292,7 +287,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -302,9 +296,9 @@
       "obj/x64/Debug/raylib/rlgl.o",
       "../external/raylib-master/src/rlgl.h"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rlgl.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rlgl.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rlgl.h",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rlgl.o"
   },
   {
     "arguments": [
@@ -314,29 +308,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
-      "-I../external/raylib-master/src",
-      "-I../external/raylib-master/src/external/glfw/include",
-      "-m64",
-      "-g",
-      "-c",
-      "-o",
-      "obj/x64/Debug/raylib/utils.o",
-      "../external/raylib-master/src/utils.h"
-    ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/utils.h",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/utils.o"
-  },
-  {
-    "arguments": [
-      "gcc",
-      "-MD",
-      "-MP",
-      "-DDEBUG",
-      "-DPLATFORM_DESKTOP",
-      "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -346,9 +317,9 @@
       "obj/x64/Debug/raylib/raudio.o",
       "../external/raylib-master/src/raudio.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/raudio.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/raudio.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/raudio.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/raudio.o"
   },
   {
     "arguments": [
@@ -358,7 +329,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -368,9 +338,9 @@
       "obj/x64/Debug/raylib/rcore.o",
       "../external/raylib-master/src/rcore.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rcore.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rcore.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rcore.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rcore.o"
   },
   {
     "arguments": [
@@ -380,7 +350,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -390,9 +359,9 @@
       "obj/x64/Debug/raylib/rglfw.o",
       "../external/raylib-master/src/rglfw.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rglfw.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rglfw.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rglfw.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rglfw.o"
   },
   {
     "arguments": [
@@ -402,7 +371,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -412,9 +380,9 @@
       "obj/x64/Debug/raylib/rmodels.o",
       "../external/raylib-master/src/rmodels.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rmodels.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rmodels.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rmodels.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rmodels.o"
   },
   {
     "arguments": [
@@ -424,7 +392,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -434,9 +401,9 @@
       "obj/x64/Debug/raylib/rshapes.o",
       "../external/raylib-master/src/rshapes.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rshapes.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rshapes.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rshapes.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rshapes.o"
   },
   {
     "arguments": [
@@ -446,7 +413,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -456,9 +422,9 @@
       "obj/x64/Debug/raylib/rtext.o",
       "../external/raylib-master/src/rtext.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rtext.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rtext.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rtext.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rtext.o"
   },
   {
     "arguments": [
@@ -468,7 +434,6 @@
       "-DDEBUG",
       "-DPLATFORM_DESKTOP",
       "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
       "-I../external/raylib-master/src",
       "-I../external/raylib-master/src/external/glfw/include",
       "-m64",
@@ -478,30 +443,8 @@
       "obj/x64/Debug/raylib/rtextures.o",
       "../external/raylib-master/src/rtextures.c"
     ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/rtextures.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/rtextures.o"
-  },
-  {
-    "arguments": [
-      "gcc",
-      "-MD",
-      "-MP",
-      "-DDEBUG",
-      "-DPLATFORM_DESKTOP",
-      "-DGRAPHICS_API_OPENGL_33",
-      "-D_GLFW_X11",
-      "-I../external/raylib-master/src",
-      "-I../external/raylib-master/src/external/glfw/include",
-      "-m64",
-      "-g",
-      "-c",
-      "-o",
-      "obj/x64/Debug/raylib/utils.o",
-      "../external/raylib-master/src/utils.c"
-    ],
-    "directory": "/home/kelley/Desktop/celms/build/build_files",
-    "file": "/home/kelley/Desktop/celms/build/external/raylib-master/src/utils.c",
-    "output": "/home/kelley/Desktop/celms/build/build_files/obj/x64/Debug/raylib/utils.o"
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/build/external/raylib-master/src/rtextures.c",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/raylib/rtextures.o"
   },
 ]

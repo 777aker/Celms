@@ -9,43 +9,43 @@ ifndef verbose
 endif
 
 ifeq ($(config),debug_x64)
-  celms_config = debug_x64
+  Celms_config = debug_x64
   raylib_config = debug_x64
 
 else ifeq ($(config),debug_x86)
-  celms_config = debug_x86
+  Celms_config = debug_x86
   raylib_config = debug_x86
 
 else ifeq ($(config),debug_arm64)
-  celms_config = debug_arm64
+  Celms_config = debug_arm64
   raylib_config = debug_arm64
 
 else ifeq ($(config),release_x64)
-  celms_config = release_x64
+  Celms_config = release_x64
   raylib_config = release_x64
 
 else ifeq ($(config),release_x86)
-  celms_config = release_x86
+  Celms_config = release_x86
   raylib_config = release_x86
 
 else ifeq ($(config),release_arm64)
-  celms_config = release_arm64
+  Celms_config = release_arm64
   raylib_config = release_arm64
 
 else
   $(error "invalid configuration $(config)")
 endif
 
-PROJECTS := celms raylib
+PROJECTS := Celms raylib
 
 .PHONY: all clean help $(PROJECTS) 
 
 all: $(PROJECTS)
 
-celms: raylib
-ifneq (,$(celms_config))
-	@echo "==== Building celms ($(celms_config)) ===="
-	@${MAKE} --no-print-directory -C build/build_files -f celms.make config=$(celms_config)
+Celms: raylib
+ifneq (,$(Celms_config))
+	@echo "==== Building Celms ($(Celms_config)) ===="
+	@${MAKE} --no-print-directory -C build/build_files -f Celms.make config=$(Celms_config)
 endif
 
 raylib:
@@ -55,7 +55,7 @@ ifneq (,$(raylib_config))
 endif
 
 clean:
-	@${MAKE} --no-print-directory -C build/build_files -f celms.make clean
+	@${MAKE} --no-print-directory -C build/build_files -f Celms.make clean
 	@${MAKE} --no-print-directory -C build/build_files -f raylib.make clean
 
 help:
@@ -72,7 +72,7 @@ help:
 	@echo "TARGETS:"
 	@echo "   all (default)"
 	@echo "   clean"
-	@echo "   celms"
+	@echo "   Celms"
 	@echo "   raylib"
 	@echo ""
 	@echo "For more information, see https://github.com/premake/premake-core/wiki"
