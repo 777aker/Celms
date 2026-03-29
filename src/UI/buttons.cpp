@@ -19,5 +19,5 @@ void Button::draw() {
   } else {
     DrawRectangleRec(buttonRect, backgroundColor);
   }
-  DrawText(text.c_str(), buttonRect.x + 20, buttonRect.y, buttonRect.height * 0.8, clouds);
+  DrawText(text.c_str(), buttonRect.x + buttonRect.width * 0.05, buttonRect.y + buttonRect.height * 0.1, buttonRect.height * 0.8, clouds);
 }

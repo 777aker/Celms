@@ -15,8 +15,8 @@ int main() {
   InitWindow(screenWidth, screenHeight, "CELMS");
   SetTargetFPS(60);
 
-  StartScreen startScreen = StartScreen();
-  objectsToDraw.push_back(&startScreen);
+  startScreen = new StartScreen();
+  objectsToDraw.push_back(startScreen);
 
   while (!WindowShouldClose()) {
     BeginDrawing();

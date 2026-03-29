@@ -1,24 +1,61 @@
 #include "startscreen.hpp"
 
 #include "../UI/colors.hpp"
+#include "../Multiplayer/socketManager.hpp"
 
-void hostGameCallback() {}
+StartScreen *startScreen;
 
-void joinGameCallback() {}
+void hostGameCallback()
+{
+  startScreen->switchScreen(startScreen->HostGame);
+}
 
-StartScreen::StartScreen() {
-  hostGame = new Button(carrot, pumpkin, 100, 100, 200, 50, "Host Game",
+void joinGameCallback()
+{
+  startScreen->switchScreen(startScreen->JoinGame);
+}
+
+StartScreen::StartScreen()
+{
+  hostGame = new Button(carrot, pumpkin, 100, 100, 300, 50, "Host Game",
                         hostGameCallback);
-  joinGame = new Button(turquoise, green_sea, 100, 250, 200, 50, "Join Game",
+  joinGame = new Button(turquoise, green_sea, 100, 250, 300, 50, "Join Game",
                         joinGameCallback);
 }
 
-StartScreen::~StartScreen() {
+StartScreen::~StartScreen()
+{
   delete hostGame;
   delete joinGame;
 }
 
-void StartScreen::draw() {
-  hostGame->draw();
-  joinGame->draw();
+void StartScreen::draw()
+{
+  switch (currentScreen)
+  {
+  case MainScreen:
+    hostGame->draw();
+    joinGame->draw();
+    break;
+  case HostGame:
+    break;
+  case JoinGame:
+    break;
+  }
+}
+
+void StartScreen::switchScreen(enum screenState ss)
+{
+  currentScreen = ss;
+  switch (currentScreen)
+  {
+  case MainScreen:
+    break;
+  case HostGame:
+    socketManager->startSocket();
+    printf("Socket Opened: '%s'\n", socketManager->getAddressPort());
+    break;
+  case JoinGame:
+    break;
+  }
 }

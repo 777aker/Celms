@@ -17,6 +17,31 @@
       "-std=c++17",
       "-c",
       "-o",
+      "obj/x64/Debug/Celms/socketManager.o",
+      "../../src/Multiplayer/socketManager.hpp"
+    ],
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/Multiplayer/socketManager.hpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/socketManager.o"
+  },
+  {
+    "arguments": [
+      "g++",
+      "-MD",
+      "-MP",
+      "-DDEBUG",
+      "-DPLATFORM_DESKTOP",
+      "-DGRAPHICS_API_OPENGL_33",
+      "-D_WIN32",
+      "-I../../src",
+      "-I../../include",
+      "-I../external/raylib-master/src",
+      "-m64",
+      "-Wshadow",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
       "obj/x64/Debug/Celms/startscreen.o",
       "../../src/StartScreen/startscreen.hpp"
     ],
@@ -98,6 +123,31 @@
     "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
     "file": "C:/Users/mkelley1/Desktop/Celms/src/drawobject.hpp",
     "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/drawobject.o"
+  },
+  {
+    "arguments": [
+      "g++",
+      "-MD",
+      "-MP",
+      "-DDEBUG",
+      "-DPLATFORM_DESKTOP",
+      "-DGRAPHICS_API_OPENGL_33",
+      "-D_WIN32",
+      "-I../../src",
+      "-I../../include",
+      "-I../external/raylib-master/src",
+      "-m64",
+      "-Wshadow",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "obj/x64/Debug/Celms/socketManager.o",
+      "../../src/Multiplayer/socketManager.cpp"
+    ],
+    "directory": "C:/Users/mkelley1/Desktop/Celms/build/build_files",
+    "file": "C:/Users/mkelley1/Desktop/Celms/src/Multiplayer/socketManager.cpp",
+    "output": "C:/Users/mkelley1/Desktop/Celms/build/build_files/obj/x64/Debug/Celms/socketManager.o"
   },
   {
     "arguments": [
