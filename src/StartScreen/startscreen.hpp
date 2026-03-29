@@ -3,6 +3,9 @@
 #include "../UI/buttons.hpp"
 #include "../drawobject.hpp"
 
+void hostGameCallback();
+void joinGameCallback();
+
 class StartScreen : public DrawObject {
 public:
   StartScreen();
@@ -10,6 +13,6 @@ public:
   void draw();
 
 private:
-  Button hostGame;
-  Button joinGame;
+  Button *hostGame;
+  Button *joinGame;
 };

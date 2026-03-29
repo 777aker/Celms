@@ -2,6 +2,7 @@
 
 #include <raylib.h>
 
+#include "StartScreen/startscreen.hpp"
 #include "drawobject.hpp"
 
 std::vector<DrawObject *> objectsToDraw{};
@@ -13,6 +14,8 @@ int main() {
 
   InitWindow(screenWidth, screenHeight, "CELMS");
   SetTargetFPS(60);
+
+  StartScreen startScreen = StartScreen();
 
   while (!WindowShouldClose()) {
     BeginDrawing();
