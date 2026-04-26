@@ -1,0 +1,66 @@
+[gd_scene load_steps=3 format=3 uid="uid://bb5opex6777dm"]
+
+[ext_resource type="Script" uid="uid://bjvc57hk70vq8" path="res://main_menu_ui.gd" id="1_06t4h"]
+[ext_resource type="PackedScene" uid="uid://cterkkrolnab7" path="res://lobby.tscn" id="2_7vrkn"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuContainer" type="VBoxContainer" parent="." node_paths=PackedStringArray("hostPortText", "joinIPText", "joinPortText")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+hostPortText = NodePath("HostContainer/HostPort")
+joinIPText = NodePath("JoinContainer/JoinIP")
+joinPortText = NodePath("JoinContainer/JoinPort")
+lobby = ExtResource("2_7vrkn")
+
+[node name="HostContainer" type="HBoxContainer" parent="MenuContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+alignment = 1
+
+[node name="HostGame" type="Button" parent="MenuContainer/HostContainer"]
+layout_mode = 2
+text = "Host Game"
+
+[node name="HostPort" type="TextEdit" parent="MenuContainer/HostContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+placeholder_text = "Port"
+emoji_menu_enabled = false
+
+[node name="JoinContainer" type="HBoxContainer" parent="MenuContainer"]
+layout_mode = 2
+
+[node name="JoinGame" type="Button" parent="MenuContainer/JoinContainer"]
+layout_mode = 2
+text = "Join Game"
+
+[node name="JoinIP" type="TextEdit" parent="MenuContainer/JoinContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+placeholder_text = "Host IP"
+
+[node name="JoinPort" type="TextEdit" parent="MenuContainer/JoinContainer"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+placeholder_text = "Port"
+
+[connection signal="pressed" from="MenuContainer/HostContainer/HostGame" to="MenuContainer" method="_on_host_game_pressed"]
+[connection signal="pressed" from="MenuContainer/JoinContainer/JoinGame" to="MenuContainer" method="_on_join_game_pressed"]
