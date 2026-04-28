@@ -1,12 +1,30 @@
-[gd_scene load_steps=3 format=3 uid="uid://cterkkrolnab7"]
+[gd_scene load_steps=5 format=3 uid="uid://cterkkrolnab7"]
 
 [ext_resource type="Script" uid="uid://dc26jkokf27n0" path="res://networking/player_spawner.gd" id="1_ll2xe"]
 [ext_resource type="PackedScene" uid="uid://cv3523p3goe10" path="res://player.tscn" id="2_xrgmn"]
 
-[node name="Lobby" type="Node2D"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_xrgmn"]
+size = Vector3(126.999146, 1, 194.27075)
+
+[sub_resource type="BoxMesh" id="BoxMesh_2wvic"]
+
+[node name="Lobby" type="Node3D"]
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("uid://cv3523p3goe10")
 spawn_path = NodePath("..")
 script = ExtResource("1_ll2xe")
 network_player = ExtResource("2_xrgmn")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.82945704, 0.43758455, -0.3471611, 0, 0.621517, 0.78340065, 0.55857056, -0.6497972, 0.51552165, 0, 12.494733, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.055725098, 0, -0.07702637)
+shape = SubResource("BoxShape3D_xrgmn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(127.38822, 0, 0, 0, 0.40322, 0, 0, 0, 194.84563, -0.008684397, 0, -0.015364885)
+mesh = SubResource("BoxMesh_2wvic")
