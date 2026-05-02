@@ -1,8 +1,8 @@
 extends Node
 
-@export var hostPortText: TextEdit
-@export var joinIPText: TextEdit
-@export var joinPortText: TextEdit
+@onready var hostPortText: TextEdit = $HostContainer/HostPort
+@onready var joinIPText: TextEdit = $JoinContainer/JoinIP
+@onready var joinPortText: TextEdit = $JoinContainer/JoinPort
 
 @export var lobby: PackedScene
 

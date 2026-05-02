@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cterkkrolnab7"]
+
+[ext_resource type="Script" uid="uid://dc26jkokf27n0" path="res://scenes/networking/player_spawner.gd" id="1_ll2xe"]
+[ext_resource type="PackedScene" uid="uid://dy0487tv7nfsc" path="res://scenes/lobby/lobby_player.tscn" id="2_ukx7c"]
+
+[node name="Lobby" type="Control" unique_id=1584537609]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=1677421971]
+_spawnable_scenes = PackedStringArray("uid://dy0487tv7nfsc")
+spawn_path = NodePath("../Players")
+script = ExtResource("1_ll2xe")
+network_player = ExtResource("2_ukx7c")
+
+[node name="Players" type="VBoxContainer" parent="." unique_id=218441848]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="StartGame" type="Button" parent="Players" unique_id=1793656255]
+custom_minimum_size = Vector2(200, 45)
+layout_mode = 2
+text = "Start Game"

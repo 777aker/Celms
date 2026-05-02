@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bb5opex6777dm"]
+[gd_scene format=3 uid="uid://bb5opex6777dm"]
 
 [ext_resource type="Script" uid="uid://bjvc57hk70vq8" path="res://main_menu_ui.gd" id="1_06t4h"]
-[ext_resource type="PackedScene" uid="uid://cterkkrolnab7" path="res://lobby.tscn" id="2_7vrkn"]
+[ext_resource type="PackedScene" uid="uid://cterkkrolnab7" path="res://scenes/lobby/lobby.tscn" id="2_7vrkn"]
 
-[node name="MainMenu" type="Control"]
+[node name="MainMenu" type="Control" unique_id=1905330583]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MenuContainer" type="VBoxContainer" parent="." node_paths=PackedStringArray("hostPortText", "joinIPText", "joinPortText")]
+[node name="MenuContainer" type="VBoxContainer" parent="." unique_id=1949749437]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -25,39 +25,36 @@ offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_06t4h")
-hostPortText = NodePath("HostContainer/HostPort")
-joinIPText = NodePath("JoinContainer/JoinIP")
-joinPortText = NodePath("JoinContainer/JoinPort")
 lobby = ExtResource("2_7vrkn")
 
-[node name="HostContainer" type="HBoxContainer" parent="MenuContainer"]
+[node name="HostContainer" type="HBoxContainer" parent="MenuContainer" unique_id=45937023]
 layout_mode = 2
 size_flags_vertical = 4
 alignment = 1
 
-[node name="HostGame" type="Button" parent="MenuContainer/HostContainer"]
+[node name="HostGame" type="Button" parent="MenuContainer/HostContainer" unique_id=1201085488]
 layout_mode = 2
 text = "Host Game"
 
-[node name="HostPort" type="TextEdit" parent="MenuContainer/HostContainer"]
+[node name="HostPort" type="TextEdit" parent="MenuContainer/HostContainer" unique_id=2400827]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 placeholder_text = "Port"
 emoji_menu_enabled = false
 
-[node name="JoinContainer" type="HBoxContainer" parent="MenuContainer"]
+[node name="JoinContainer" type="HBoxContainer" parent="MenuContainer" unique_id=1280706974]
 layout_mode = 2
 
-[node name="JoinGame" type="Button" parent="MenuContainer/JoinContainer"]
+[node name="JoinGame" type="Button" parent="MenuContainer/JoinContainer" unique_id=1093708744]
 layout_mode = 2
 text = "Join Game"
 
-[node name="JoinIP" type="TextEdit" parent="MenuContainer/JoinContainer"]
+[node name="JoinIP" type="TextEdit" parent="MenuContainer/JoinContainer" unique_id=1429528895]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 placeholder_text = "Host IP"
 
-[node name="JoinPort" type="TextEdit" parent="MenuContainer/JoinContainer"]
+[node name="JoinPort" type="TextEdit" parent="MenuContainer/JoinContainer" unique_id=864644058]
 custom_minimum_size = Vector2(75, 0)
 layout_mode = 2
 placeholder_text = "Port"
